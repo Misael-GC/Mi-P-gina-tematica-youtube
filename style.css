@@ -1,0 +1,23 @@
+html{
+    font-size: 62.5%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;   /* El header debe de ocupar el 100% del tamaño de la pantalla*/
+    height: 60px;
+}
