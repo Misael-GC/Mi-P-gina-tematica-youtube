@@ -155,9 +155,9 @@ aside{
 }
 aside .aside-container{
     width: 100%;
-    border-bottom: 1px solid #383838;;
+    border-bottom: 1px solid #383838; 
 }
-aside .aside-container .aside-div1{
+aside .aside-container .aside-a1{
     width: 100%; /*241px;*/
     display: flex;
     background:#212121;
@@ -169,7 +169,7 @@ aside .aside-container .aside-div1{
     cursor: pointer;
 }
 
-aside .aside-container .aside-div2{
+aside .aside-container .aside-a2{
     width: 100%;
     display: flex;
     background: #212121;
@@ -181,12 +181,12 @@ aside .aside-container .aside-div2{
     cursor: pointer;
 }
 
-aside .aside-container div .img-aside{
-    width: 30px;
+aside .aside-container a .img-aside{
+    width: 25px;
     margin-right: 25px;
 }
 
-aside .aside-container .aside-div1:hover{
+aside .aside-container .aside-a1:hover{
     background-color: #383838;
 }
 
@@ -195,6 +195,82 @@ aside .aside-container .aside-div1:hover{
 } */
 
 
-aside .aside-container .aside-div2:hover{
+aside .aside-container .aside-a2:hover{
     background: #383838;
+}
+
+aside .aside-container .suscripciones{
+    border-bottom: 1px solid #383838;
+}
+/*---------------------segunda seccion----------------*/
+
+aside .aside-container .aside-a3{
+    width: 100%;
+    display: flex;
+    background: #212121;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: start;
+    margin: 0px 0px;
+    padding: 3px 12px 11px 19px;
+    cursor: pointer;
+}
+
+aside .aside-container .likes{
+    border-bottom: 1px solid #383838;
+}
+
+aside .aside-container .aside-a3:hover{
+    background: #383838;
+}
+
+/*---------------------TERCERA seccion----------------*/
+
+.aside-container .suscripciones2{
+    padding: 17px 0px 15px 20px; 
+    color: #aaaaaa;
+    font-size: 1.4rem;
+}
+
+aside .aside-container a .img-aside-s3{
+    width: 25px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+aside .aside-container  .primer-concurso{
+    border-bottom: 1px solid #383838; 
+}
+
+/*---------------------cuarta seccion----------------*/
+
+.aside-container .mas-youtube{
+    padding: 17px 0px 15px 20px; 
+    color:#aaaaaa;
+    font-size: 1.4rem;
+}
+
+aside .aside-container a .img-aside-s4{
+    width: 25px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+aside .aside-container .cuarta-section{
+    border-bottom: 1px solid #383838; 
+}
+
+/*------------------quita seccion--------------------------*/
+aside .aside-container .a5{
+    margin-top: 10px;
+}
+
+aside .aside-container a .img-aside-s5{
+    width: 25px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+aside .aside-container .quinta-section{
+    border-bottom: 1px solid #383838; 
 }
