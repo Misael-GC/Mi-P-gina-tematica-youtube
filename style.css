@@ -30,52 +30,118 @@ header{
 header nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;  
+    align-items: center; 
+    width: 100%; /*-------------*/
 }
 
 header nav .nav-leftt{
-    width:300px;
+    width:33%; /*200px---------------*/
     height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     height: inherit;
-    background: gray;
-
+    background: #202020;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 header nav .nav-leftt .logo{
-    width: 100px;
+    width: 35px;
+    margin-left: 30px;
+}
+
+header nav .nav-leftt p{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 /* -------------------------nav parte centro----------------------------*/
+header nav .nav-center{
+    margin-top: 7px;
+    display: flex;
+}
 
-
- header nav .nav-center .main-input-container {
-    width: 100%;  /*550px; */
+header nav .nav-center .main-input-container {
+    width: 550px;  /*550px; */
     border-radius: 0px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid #303030;
     display: flex;
     justify-content: start;
     align-items: center;
+    background: #313131;
 }
 
 header nav .nav-center .main-input-container input{
-    width: 85%; /* 450px el % de su contenedor padre*/ 
+    width: 90%; /* 450px el % de su contenedor padre*/ 
     height: 33px;
     border: none;
     outline: none; /* borde que aparece cuando le das click*/
+    background-color: #121212;
+    padding-left: 7px;
+    color: whitesmoke;
 }
 
-header nav .nav-center .main-input-container:hover{
-    box-shadow: 0 1px 6px 0 #20212447;
-    border-color: #dfe1e500;
+header nav .nav-center .main-input-container input:hover{
+    border: 1px solid #3ea6ff;
 }
 
-.boton-buscar{
+
+
+.nav-center .main-input-container .boton-buscar{
     background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 18px;
-    height: 18px;
-    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
 }
+
+
+.micro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #121212;
+    border-radius: 50%;
+    margin: 3px 15px 0;
+    cursor: pointer;
+}
+.micro-container img{
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.nav-right{
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.icon-right1{
+    margin-top: 15px; 
+}
+
+.icon-right2{
+    margin-top: 15px; 
+}
+.icon-right3{
+    margin-top: 15px; 
+}
+.perfil{
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
