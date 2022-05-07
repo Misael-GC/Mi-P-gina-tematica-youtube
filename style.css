@@ -318,8 +318,7 @@ aside .aside-container .aside-div2{
 
 main .pagina-principal{
     width: 82%;
-    background: #3ea6ff;
-    display: flex;
+    background: #3ea6ff; /*no debe de llevar flex*/
 }
 
 main .pagina-principal .principal-opciones{
@@ -339,4 +338,8 @@ main .pagina-principal .principal-opciones .opciones-1{
     padding:7px 12px;
     border: 1px solid #383838;
     border-radius: 10%;
+}
+
+.cinco{
+    display: flex;
 }
