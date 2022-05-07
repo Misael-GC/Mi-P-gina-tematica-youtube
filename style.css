@@ -348,6 +348,79 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 
 /*------------------main-seccion-videos-----------------*/
 
-.cinco{
+.cards-container{
+    display: grid; /*wrap /flex*/ 
+    grid-template-columns: repeat(auto-fill, 250px);
+    place-content: center;
+    gap: 19px;
+    margin-top: 25px;
+}
+
+
+.product-card{
+    width: 100%;
+}
+.product-card .img-photo-perfil{
+    width: 100%;
+    height: 140px;
+    border-radius: 2px;
+    object-fit: cover; /* Adapta la imagen en el width y width, lo hace ver en su estado original*/
+}
+
+ .img-project  {
+    width: 35px;
+    height: 35px;
+}
+
+.product-card .info-project div p{
+    margin-left: 10px;
+}
+
+.product-card .info-project-2 p{
+    background:#181818;
+    color: #aaaaaa; 
+    padding-left: 50px;
+    font-size: small;  /*----------->>>>>>>>*/
+}
+
+.info-project{
+    width: 100%; /*241px;*/
     display: flex;
+    background:#181818;
+    color: #ffffff;
+    font-weight:777;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    padding: 10px 12px 11px 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-info div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.product-info div p:nth-child(2){
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--very-light-pink);
 }
