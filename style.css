@@ -370,6 +370,7 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
  .img-project  {
     width: 35px;
     height: 35px;
+    border-radius: 50%;
 }
 
 .product-card .info-project div p{
