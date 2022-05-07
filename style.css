@@ -318,7 +318,7 @@ aside .aside-container .aside-div2{
 
 main .pagina-principal{
     width: 82%;
-    background: #3ea6ff; /*no debe de llevar flex*/
+    background: #181818; /*no debe de llevar flex*/
 }
 
 main .pagina-principal .principal-opciones{
@@ -397,30 +397,3 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.product-info div p:nth-child(1){
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 4px;
-}
-
-.product-info div p:nth-child(2){
-    font-size: var(--sm);
-    margin-top: 0;
-    margin-bottom: 0;
-    color: var(--very-light-pink);
-}
