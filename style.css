@@ -340,6 +340,14 @@ main .pagina-principal .principal-opciones .opciones-1{
     border-radius: 10%;
 }
 
+
+main .pagina-principal .principal-opciones .opciones-1:hover{
+    background: #ffffff;
+    color: #121212;
+}
+
+/*------------------main-seccion-videos-----------------*/
+
 .cinco{
     display: flex;
 }
