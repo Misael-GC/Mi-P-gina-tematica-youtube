@@ -151,7 +151,7 @@ main{
 
 aside{
     width: 18%;
-    min-height: 100vh;
+    min-height: 80vh;
     background: #212121;
     display: flex;
     align-items: flex-start;
@@ -161,7 +161,21 @@ aside{
 aside .aside-container{
     width: 100%; /*--------------------------------------------*/
     border-bottom: 1px solid #383838; 
+    overflow-y:scroll; /*crea la opcion de deslizar para ver otras tarjetas*/
+    /* overflow-x:hidden; */
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
 }
+
+aside .aside-container::-webkit-scrollbar{ /*decorar el scroll*/
+    background:#212121;  /*aqui esta el scroll*/
+    height: 1px;
+}
+
+aside .aside-container::-webkit-scrollbar-thumb{
+    background: gray;
+}
+
 aside .aside-container .aside-a1{
     width: 100%; /*241px;*/
     display: flex;
@@ -363,9 +377,9 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 }
 
 .product-card:hover{
-    width: 270px;
-    min-height: 250px;
-    margin: 0;
+    width: 200px;
+    min-height: 180px;
+    margin: 0 auto;
     padding: 0;
 }
 
