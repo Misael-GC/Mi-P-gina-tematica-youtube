@@ -64,7 +64,7 @@ header nav .nav-center{
 }
 
 header nav .nav-center .main-input-container {
-    width: 550px;  /*550px; */
+    width: 500px;  /*550px; */
     border-radius: 0px;
     border: 1px solid #303030;
     display: flex;
@@ -421,3 +421,61 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 }
 
 
+/*-----------mobile-first-----------*/
+
+@media(max-width: 1200px){
+
+
+    main .pagina-principal .principal-opciones{
+        display: flex; /*este pondra a las targetas una del lado de otra*/
+        gap: 5px; /*si no usas el gap ve a .plans-container--card por cierto este da espacio entre las tarjetas*/
+        min-height: 40px; /*sea más alto que su contenido*/
+        overflow-x:scroll; /*crea la opcion de deslizar para ver otras tarjetas*/
+        overflow-y:hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+    }
+}
+
+@media (max-width: 950px){
+
+    header nav .nav-center{
+        margin-top: 7px;
+        display: flex;
+        justify-content: end;
+    }
+
+    header nav .nav-center .main-input-container {
+        width: 30px;  /*550px; */
+        border: 1px solid black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background: black;
+    }
+    
+
+}
+
+@media (max-width: 600px){
+.micro-container{
+    display: none;
+}
+
+.nav-right{
+    width: 150px;
+}
+
+.icon-right1,
+.icon-right2{
+    display: none;
+}
+
+}
+
+@media (max-width: 375px){
+    .icon-right3{
+        margin-top: 15px; 
+        
+    }
+}
