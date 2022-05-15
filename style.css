@@ -144,6 +144,13 @@ header nav .nav-center .main-input-container input:hover{
     border-radius: 50%;
     margin-top: 15px;
 }
+
+.buscador-container .buscador{
+    visibility: hidden;
+    width: 0%;
+    padding: 0;
+    margin: 0%;
+}
 /* ---------------------------main-------aside o espacio lateral-------------------*/
 main{
     display: flex;
@@ -446,7 +453,7 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
     }
 
     header nav .nav-center .main-input-container {
-        width: 30px;  /*550px; */
+        width: 290px;  /*550px; */
         border: 1px solid black;
         display: flex;
         justify-content: flex-end;
@@ -457,7 +464,12 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 720px){
+
+    header nav .nav-center{
+        display: none;
+    }
+
 .micro-container{
     display: none;
 }
@@ -473,9 +485,19 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 
 }
 
-@media (max-width: 375px){
+@media (max-width: 475px){
+
+    .buscador-container .buscador{
+        visibility: visible;
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    .boton-buscar{
+        position: absolute;
+        left: calc(50% + 20px);
+    }
     .icon-right3{
-        margin-top: 15px; 
-        
+        margin: 19px 0px 10px 20px;
     }
 }
