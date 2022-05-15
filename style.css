@@ -431,8 +431,6 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 /*-----------mobile-first-----------*/
 
 @media(max-width: 1200px){
-
-
     main .pagina-principal .principal-opciones{
         display: flex; /*este pondra a las targetas una del lado de otra*/
         gap: 5px; /*si no usas el gap ve a .plans-container--card por cierto este da espacio entre las tarjetas*/
@@ -445,7 +443,6 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
 }
 
 @media (max-width: 950px){
-
     header nav .nav-center{
         margin-top: 7px;
         display: flex;
@@ -463,7 +460,7 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
     
 
 }
-
+/* 
 @media (max-width: 720px){
 
     header nav .nav-center{
@@ -483,21 +480,4 @@ main .pagina-principal .principal-opciones .opciones-1:hover{
     display: none;
 }
 
-}
-
-@media (max-width: 475px){
-
-    .buscador-container .buscador{
-        visibility: visible;
-        width: 30px;
-        margin-top: 15px;
-    }
-
-    .boton-buscar{
-        position: absolute;
-        left: calc(50% + 20px);
-    }
-    .icon-right3{
-        margin: 19px 0px 10px 20px;
-    }
-}
+} */

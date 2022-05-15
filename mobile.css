@@ -1,0 +1,17 @@
+
+@media (max-width: 475px){
+
+    .buscador-container .buscador{
+        visibility: visible;
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    .boton-buscar{
+        position: absolute;
+        left: calc(50% + 20px);
+    }
+    .icon-right3{
+        margin: 19px 0px 10px 20px;
+    }
+}

@@ -1,0 +1,20 @@
+@media (max-width: 720px){
+
+    header nav .nav-center{
+        display: none;
+    }
+
+.micro-container{
+    display: none;
+}
+
+.nav-right{
+    width: 150px;
+}
+
+.icon-right1,
+.icon-right2{
+    display: none;
+}
+
+}
